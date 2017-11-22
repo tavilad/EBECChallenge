@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="326.0" prefWidth="311.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Pane prefHeight="326.0" prefWidth="311.0">
+         <children>
+            <ComboBox fx:id="categories" layoutX="81.0" layoutY="151.0" prefWidth="150.0" />
+            <Button layoutX="136.0" layoutY="236.0" mnemonicParsing="false" text="Start" />
+            <Label alignment="CENTER" layoutX="70.0" layoutY="57.0" prefHeight="31.0" prefWidth="172.0" text="Select category">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
